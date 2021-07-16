@@ -9,7 +9,79 @@
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  background: #003B5C;
+  background: #003b5c;
+}
+
+.back-to-top:hover {
+  background: #003b5c;
+}
+
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #da291c;
+    border-color: #da291c;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #62120d;
+    border-color: #62120d;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #003b5c;
+    border-color: #003b5c;
+}
+
+.btn-outline-info {
+	color: #da291c;
+    border-color: #da291c;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #da291c;
+    border-color: #da291c;
+}
+
+.btn-outline-info.focus, .btn-outline-info:focus {
+    box-shadow: 0 0 0 0.2rem rgb(218 41 28 / 50%);
+}
+
+.btn-outline-info:not(:disabled):not(.disabled).active, .btn-outline-info:not(:disabled):not(.disabled):active, .show>.btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: #62120d;
+    border-color: #62120d;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #da291c;
+    border-color: #da291c;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #62120d;
+    border-color: #62120d;
+}
+
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #62120d;
+    border-color: #62120d;
+    box-shadow: 0 0 0 0.2rem rgb(218 41 28 / 50%);
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #003b5c;
+    border-color: #003b5c;
 }
 
 /*--------------------------------------------------------------
