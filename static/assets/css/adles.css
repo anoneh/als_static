@@ -101,3 +101,13 @@ ul#id_consent li{
 .hsmall { font-size: small; color:cornflowerblue; }
 
 .achtung {color: crimson;}
+
+.ivory { color: #003b5c; }
+
+#rnote { background-color: #99d6ea;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px; }
